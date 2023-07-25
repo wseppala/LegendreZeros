@@ -1,7 +1,7 @@
 # LegendreZeros
 
-This repository contains MATLAB-code for a numerical scheme developed to compute the $k$-zeros of the special case of the associated Legendre function $P_{-1/2 + ik}^m(x)$, 
-with $k$ real, $m$ integral and $x$ real exceeding one (aka. the Mehler or conical function).
+This repository contains MATLAB-code for a numerical scheme developed to compute the $k$-zeros of the associated Legendre function $P_{-1/2 + ik}^m(x)$, 
+with $k$ and $x>1$ real and $m$ integral. Legendre functions of this form are also called Mehler functions or conical functions.
 
 This work has been made as part of a research project at the Aalto University [Department of Mathematics and Systems Analysis](http://math.aalto.fi/en/) and 
 my B.Sc. Thesis "Legendren liittofunktion nollakohdat", translating to "Zeros of the associated Legendre function".
