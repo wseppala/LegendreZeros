@@ -11,5 +11,10 @@ The method uses only MATLAB files, but the open source MATLAB package Chebfun is
 ie. the package needs to be installed and added to the MATLAB PATH. Chebfun is available for free [here](https://www.chebfun.org/) 
 and the documentation can be found [here](https://www.chebfun.org/docs/).
 
+Instruction for use can be found in the comments of each ``.m``-file.
 
+# Contents
 
+* LICENSE: MIT License
+* functions ``LegendreCC``, ``LegendreIntegral`` and ``LegendreHyp`` are helper functions for evaluating the function. These are called to by the chebfun-constructor in the
+* ...functions ``LegendreZeros``, ``LegendreZerosF`` and ``LegendreZero`` which are called to compute the zero(s) with specified input parameters $(m, n, x)$.
