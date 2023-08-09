@@ -16,5 +16,6 @@ Instruction for use can be found in the comments of each ``.m``-file.
 # Contents
 
 * LICENSE: MIT License
-* functions ``LegendreCC``, ``LegendreIntegral`` and ``LegendreHyp`` are helper functions for evaluating the function. These are called to by the chebfun-constructor in the
+* The functions ``LegendreCC``, ``LegendreIntegral`` and ``LegendreHyp`` are helper functions for evaluating the function. These are called to by the chebfun-constructor in the
 * ...functions ``LegendreZeros``, ``LegendreZerosF`` and ``LegendreZero`` which are called to compute the zero(s) with specified input parameters $(m, n, x)$.
+* The JSON-script ``functionSignatures.json`` enables input suggestions in the MATLAB editor.
