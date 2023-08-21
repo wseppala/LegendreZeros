@@ -4,60 +4,60 @@
   {
      "inputs":
      [
-       {"name":"order(s)", "kind":"required", "type":["integer"], "purpose":"asc. order"},
-       {"name":"rank/placement", "kind":"required", "type":["integer"], "purpose":"give highest placement"},
-       {"name":"z", "kind":"required", "type":["numeric"], "purpose":"real main argument, >1"},
-       {"name":"int. length", "kind":"required", "type":["numeric"], "purpose":"free variable, >0"}
+       {"name":"order(s)", "kind":"required", "type":["integer"], "purpose":"In ascending order"},
+       {"name":"rank/placement", "kind":"required", "type":["integer"], "purpose":"Give highest placement"},
+       {"name":"z", "kind":"required", "type":["numeric"], "purpose":"Real main argument, >1"},
+       {"name":"int. length", "kind":"required", "type":["numeric"], "purpose":"Free variable, >0"}
       ]
   },
   "LegendreZerosF":
   {
      "inputs":
      [
-       {"name":"order(s)", "kind":"required", "type":["integer"], "purpose":"asc. order"},
-       {"name":"rank/placement", "kind":"required", "type":["integer, >0"], "purpose":"give highest placement"},
-       {"name":"z", "kind":"required", "type":["numeric"], "purpose":"real main argument, >1"},
-       {"name":"int. length", "kind":"required", "type":["numeric"], "purpose":"free variable, >0"}
+       {"name":"order(s)", "kind":"required", "type":["integer"], "purpose":"In ascending order"},
+       {"name":"rank/placement", "kind":"required", "type":["integer"], "purpose":"Give highest placement"},
+       {"name":"z", "kind":"required", "type":["numeric"], "purpose":"Real main argument, >1"},
+       {"name":"int. length", "kind":"required", "type":["numeric"], "purpose":"Free variable, >0"}
      ]
   },
   "LegendreZero":
   {
      "inputs":
      [
-       {"name":"order(s)", "kind":"required", "type":["integer"], "purpose":"a single integer value"},
-       {"name":"rank/placement", "kind":"required", "type":["integer, >0"], "purpose":"give highest placement"},
-       {"name":"z", "kind":"required", "type":["numeric"], "purpose":"real main argument, >1"},
-       {"name":"int. length", "kind":"required", "type":["numeric"], "purpose":"free variable, >0"}
+       {"name":"order", "kind":"required", "type":["integer"], "purpose":"A single integer value"},
+       {"name":"rank/placement", "kind":"required", "type":["integer"], "purpose":"Give highest placement"},
+       {"name":"z", "kind":"required", "type":["numeric"], "purpose":"Real main argument, >1"},
+       {"name":"int. length", "kind":"required", "type":["numeric"], "purpose":"Free variable, >0"}
      ]
   },"LegendreCC":
   {
      "inputs":
      [
-       {"name":"\nu", "kind":"required", "type":["complex"], "purpose":"of form -1/2 + 1i*k"},
+       {"name":"nu", "kind":"required", "type":["numeric"], "purpose":"Of form -1/2 + 1i*k"},
        
-       {"name":"m", "kind":"required", "type":["integer"], "purpose":"order of P_{\nu}^m"},
+       {"name":"m", "kind":"required", "type":["integer"], "purpose":"Order of P_{nu}^m"},
        
-       {"name":"z", "kind":"required", "type":["float"], "purpose":"real main argument, >1"},
+       {"name":"z", "kind":"required", "type":["float"], "purpose":"Real main argument, >1"},
        
-       {"name":"tolerance", "kind":"required", "type":["numeric"], "purpose":"tolerance for CC quadrature"}
+       {"name":"tolerance", "kind":"required", "type":["numeric"], "purpose":"Tolerance for CC quadrature"}
      ]
   },"LegendreIntegral":
   {
      "inputs":
      [
-       {"name":"\nu", "kind":"required", "type":["numeric"], "purpose":"of form -1/2 + 1i*k"},
+       {"name":"\nu", "kind":"required", "type":["numeric"], "purpose":"Of form -1/2 + 1i*k"},
        
-       {"name":"m", "kind":"required", "type":["integer"], "purpose":"order of P_{\nu}^m"},
+       {"name":"m", "kind":"required", "type":["integer"], "purpose":"Order of P_{\nu}^m"},
        
-       {"name":"z", "kind":"required", "type":["numeric"], "purpose":"real main argument, >1"}
+       {"name":"z", "kind":"required", "type":["numeric"], "purpose":"Real main argument, >1"}
      ]
   },"NthAbsoluteZero":
   {
      "inputs":
      [
-       {"name":"n", "kind":"required", "type":["integer"], "purpose":"positive integer, finds n:th root among all orders m"},
+       {"name":"n", "kind":"required", "type":["integer"], "purpose":"Positive integer(s), finds n:th root among all orders m\nMust be of the form 'a:b', where a>=1 and b>=a."},
        
-       {"name":"z", "kind":"required", "type":["numeric"], "purpose":"must be strictly real and > 1, main argument of P_{-1/2+ik}^m(z)"}
+       {"name":"z", "kind":"required", "type":["numeric"], "purpose":"Must be strictly real and > 1, main argument of P_{-1/2+ik}^m(z)"}
      ]
   }
 }
