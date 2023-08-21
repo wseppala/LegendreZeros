@@ -18,4 +18,5 @@ Instruction for use can be found in the comments of each ``.m``-file.
 * LICENSE: MIT License
 * The functions ``LegendreCC``, ``LegendreIntegral`` and ``LegendreHyp`` are helper functions for evaluating the function. These are called to by the chebfun-constructor in the
 * ...functions ``LegendreZeros``, ``LegendreZerosF`` and ``LegendreZero`` which are called to compute the zero(s) with specified input parameters $(m, n, x)$.
+* The function ``NthAbsoluteZero`` is a simple method based on the aforementioned rootfinding methods. It computes the $n$:th $k$-zero among all orders $m= 0, 1, 2, \dots$, with only a fixed main argument $z>1$ given as input in addition to $n$.
 * The JSON-script ``functionSignatures.json`` enables input suggestions in the MATLAB editor.
