@@ -58,7 +58,7 @@ end
 placements = [placements, placement]; orders = [orders, order-1];
 end
 returnedstruct = struct('orders',orders,'placement_within_orders',placements,'values',returnval);
-
+% Comment out this last if-statement you don't wish to see the plots after function calls. 
 if(length(n)==1)
     figure, hold on
     scatter(0:max_order,finaldata,15,'filled')
