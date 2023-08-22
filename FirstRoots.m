@@ -9,7 +9,7 @@
 
 % The method in based on the first roots increasing with increasing
 % order and does not take advantage of the theoretical lower limit for the
-% first zeros, but moves iteratively from root to the next.
+% first zeros, but moves iteratively from one root to the next.
 %------------------------------------------------------%
 function res1 = FirstRoots(mus, x, int_len)
 res1 = zeros(1,mus(end)+1);             % reserve space for result
