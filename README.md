@@ -5,11 +5,12 @@ with $k$ and $x>1$ real and $m$ integral. Legendre functions of this form are al
 
 This work has been made as part of a research project at the Aalto University [Department of Mathematics and Systems Analysis](http://math.aalto.fi/en/) and 
 my B.Sc. Thesis "Legendren liittofunktion nollakohdat", translating to "Zeros of the associated Legendre function".
-* NOTE: Link to the B.Sc. thesis will be added later.
 
 The method uses only MATLAB files, but the open source MATLAB package Chebfun is required for proper use of the code, 
 ie. the package needs to be installed and added to the MATLAB PATH. Chebfun is available for free [here](https://www.chebfun.org/) 
 and the documentation can be found [here](https://www.chebfun.org/docs/).
+
+Link to the B.Sc Thesis in the Aalto online archive [here](http://urn.fi/URN:NBN:fi:aalto-202310036125). Note that it is written in Finnish.
 
 Instruction for use can be found in the comments of each ``.m``-file.
 
